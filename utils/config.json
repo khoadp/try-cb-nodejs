@@ -1,9 +1,9 @@
 {
     "couchbase": {
-        "endPoint": "localhost:8091",
-        "n1qlService": "localhost:8093",
-        "ftsService": "localhost:8094",
-        "hostName": "127.0.0.1",
+        "endPoint": "couchbasedb:8091",
+        "n1qlService": "couchbasedb:8093",
+        "ftsService": "couchbasedb:8094",
+        "hostName": "couchbasedb",
         "bucket": "travel-sample",
         "user": "Administrator",
         "password": "password",

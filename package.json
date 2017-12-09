@@ -17,16 +17,16 @@
     "express": "*",
     "couchbase": "*",
     "body-parser": "*",
-    "progress":"*",
+    "progress": "*",
     "request": "*",
-    "jsonwebtoken":"*",
-    "haversine":"*",
-    "faye":"*",
-    "ottoman":"*"
+    "jsonwebtoken": "*",
+    "haversine": "*",
+    "faye": "*",
+    "ottoman": "*"
   },
-  "scripts":{
-    "build":"node utils/provision.js",
-    "start":"node app.js"
+  "scripts": {
+    "build": "node utils/provision.js",
+    "start": "node app.js"
   },
   "contributors": [
     {
@@ -34,8 +34,8 @@
       "email": "todd@couchbase.com"
     },
     {
-        "name": "Nic Raboy",
-        "email": "nic@couchbase.com"
+      "name": "Nic Raboy",
+      "email": "nic@couchbase.com"
     }
   ]
 }
