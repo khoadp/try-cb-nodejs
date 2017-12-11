@@ -1,6 +1,6 @@
 #!/bin/sh
 
-/usr/local/bin/couchbase-start &
+#/usr/local/bin/couchbase-start &
 
 sleep 10
 

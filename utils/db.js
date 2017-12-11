@@ -6,9 +6,11 @@ var config = require('./config');
 var couchbase = require('couchbase');
 var endPoint = config.couchbase.endPoint;
 var bucket = config.couchbase.bucket;
-var myCluster = new couchbase.Cluster(endPoint);
-var myBucket=myCluster.openBucket(bucket);
-var ODMBucket = myCluster.openBucket(bucket);
+var myCluster = new couchbase.Cluster(endPoint + "?detailed_errcodes=true");
+
+var myBucket=myCluster.openBucket(bucket, "76a7722db3897a19ec4bc1ac9ae4d60e");
+var ODMBucket = myCluster.openBucket(bucket, "76a7722db3897a19ec4bc1ac9ae4d60e");
+
 var db = myBucket;
 var ottoman = require('ottoman');
 var faye = require('faye');

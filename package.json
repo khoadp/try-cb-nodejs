@@ -15,7 +15,7 @@
   "readme": "README.md",
   "dependencies": {
     "express": "*",
-    "couchbase": "*",
+    "couchbase": "~2.2.2",
     "body-parser": "*",
     "progress": "*",
     "request": "*",
